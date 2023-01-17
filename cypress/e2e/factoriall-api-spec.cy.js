@@ -1,5 +1,3 @@
-import HomePage from '../pages/home_page'
-
 import positiveData from '../fixtures/api-positive_test_data.json'
 import negativeData from '../fixtures/negative_test_data.json'
 
@@ -22,7 +20,7 @@ describe('API test for calculating factorial of a number', () => {
     })
   })
 
-  // using parametrized integer test data
+  // using parametrized negative test data
   negativeData.forEach(test_data => {
     it(`returns error message. Input: ${test_data.input}`, () => {
       cy.request({
