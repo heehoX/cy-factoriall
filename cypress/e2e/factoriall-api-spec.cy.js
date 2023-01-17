@@ -16,7 +16,7 @@ describe('API test for calculating factorial of a number', () => {
         },
         failOnStatusCode: false,
       }).then((res) => {
-        expect(res.status).to.deep.equal(200)
+        expect(res.status).to.deep.equal(200, "Status code should be 200")
         expect(res.body.answer).to.deep.equal(test_data.output)
       })
     })
@@ -34,7 +34,7 @@ describe('API test for calculating factorial of a number', () => {
         },
         failOnStatusCode: false,
       }).then((res) => {
-        expect(res.status).to.not.deep.equal(500)
+        expect(res.status).to.not.deep.equal(500, "Status code should not be 500")
       })
     })
   })

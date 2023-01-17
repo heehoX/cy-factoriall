@@ -3,7 +3,7 @@ import HomePage from '../pages/home_page'
 import positiveData from '../fixtures/positive_test_data.json'
 import negativeData from '../fixtures/negative_test_data.json'
 
-describe('End to End test for calculating factorial of a number', () => {
+describe('Validate links in page', () => {
   beforeEach(() => {
     cy.visit("/")
   })
