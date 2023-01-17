@@ -1,0 +1,26 @@
+[
+    {
+        "input": 0,
+        "output": 1
+    },
+    {
+        "input": 10,
+        "output": 3628800
+    },
+    {
+        "input": 100,
+        "output": 9.332621544394415e+157
+    },
+    {
+        "input": 500,
+        "output": "Infinity"
+    },
+    {
+        "input": -10,
+        "output": -3628800
+    },
+    {
+        "input": -500,
+        "output": "-Infinity"
+    }
+]

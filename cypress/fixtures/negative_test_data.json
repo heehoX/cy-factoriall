@@ -1,0 +1,14 @@
+[
+    {
+        "input": "string",
+        "output": "Please enter an integer"
+    },
+    {
+        "input": "----",
+        "output": "Please enter an integer"
+    },
+    {
+        "input": "100mixed",
+        "output": "Please enter an integer"
+    }
+]
