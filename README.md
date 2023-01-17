@@ -18,3 +18,4 @@
 - Link for Terms and Condition is pointing to Privacy page and vice versa.
 - Entering `negative numbers` as input value will result in 500 Internal Server Error instead of the correct value.
 - Entering values greater than `991` will result in 500 Internal Server Error instead of Infinity.
+- Sending invalid value in the API will return 500 Internal Server Error
